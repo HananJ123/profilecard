@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- main.css -->
+    <link rel="stylesheet" href="./style.css">
+    <!--site Title-->
+    <title>Discord Profile Card</title>
+  </head>
+  <body>
+<br>
+<br>
+<div class="container">
+    <center>
+<!--First-->
 
-You can use the [editor on GitHub](https://github.com/HananJ123/profilecard/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<div class="card">
+    <div class="adjust">
+        <img src="https://cdn.discordapp.com/avatars/695334442864214056/748988adf7df935349c52820ac976ccf.webp" alt="profile img" class="rounded-circle" width="80px" height="80px">
+        <h1 class="text-white">HananJ123#9952<img src="https://cdn.discordapp.com/attachments/591157769181069332/752622240486522943/check.png" height="16" width="16" ></h1>
+        <h4 class="text-white">German Developer and Discord User</h4>
+    </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ <!---Second-->  
 
-### Markdown
+<div class="card-body second">
+    <p class="text-social">
+        Social Media
+    </p>
+<a href="https://www.youtube.com/channel/UC170IwAmZKTMgIA2HT_5IaQ">
+    <img src="https://cdn.discordapp.com/attachments/591157769181069332/752117422483308544/youtube.png" alt="youtube icon" class="social youtube" height="40" width="40">
+</a>
+<a href="https://www.snapchat.com/add/der_hanan?share_id=MkU3MDc3NDEtRjcxQi00Q0ExLUE5MUItNUFFODkxQ0VGRDdB&locale=de_DE">
+    <img src="https://cdn.discordapp.com/attachments/765269483727224902/979372601208086558/unknown.png" alt="snapchat icon" class="social youtube" height="40" width="40">
+</a>
+<a href="https://github.com/HananJ123/">
+    <img src="https://cdn.discordapp.com/attachments/999428266710552606/1001939850771058709/unknown.png" alt="github icon" class="social youtube" height="40" width="40">
+</a>
+<a href="https://instagram.com/hanan_jbr_">
+    <img src="https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png" alt="instagram icon" class="social youtube" height="40" width="40">
+</a>
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!--Third-->
 
-```markdown
-Syntax highlighted code block
+    <div class="card-body third">
+    <p class="text-social">Join Our Server or Invite my Bot</p>
+    <button type="button" onclick="location.href='https://discord.gg/3n8p8GFhyT';" class="btn">
+    <img src="https://cdn.discordapp.com/icons/747689429375647816/924bae8ccae83b1a71cbc8e38a84e90c.webp" alt="server icon" class="rounded-circle social" width="40px" height="40px">
+    <p class="text-server"> 𝕄𝔼𝔻𝕌𝕊𝔸</p>
+    <button type="button" onclick="location.href='https://musik-kid.000webhostapp.com/';" class="btn">
+    <img src="https://cdn.discordapp.com/attachments/999428266710552606/1001928871047860256/musik_kid.jpeg" alt="server icon" class="rounded-circle social" width="40px" height="40px">
+    <p class="text-server">Musik Kid#2136</p>
+    </button>
+    </div>
+    </center>
+</div> 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HananJ123/profilecard/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
